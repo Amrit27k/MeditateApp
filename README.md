@@ -14,40 +14,40 @@ Make sure you have installed
 
 Local Development Environment Configuration
 -------------------------------------------
-1. Download the latest version of Python from `Python official website <https://www.python.org/downloads/>`_
-2. Fork the project, clone your fork, and configure the remotes::
+
+1. Fork the project, clone your fork, and configure the remotes::
 
     # Clone your fork of the repo into the current directory
-    git clone https://github.com/<your-username>/TPO-Backend-App.git
+    git clone https://github.com/<your-username>/MeditateApp.git
     # Navigate to the newly cloned directory
-    cd TPO-Backend-App
+    cd MeditateApp
     # Assign the original repo to a remote called "upstream"
-    git remote add upstream https://github.com/aissmstpo/TPO-Backend-App.git
+    git remote add upstream https://github.com/Amrit27k/MeditateApp
 
-3. If you cloned a while ago, get the latest changes from upstream::
+2. If you cloned a while ago, get the latest changes from upstream::
  
     git checkout master
     git pull upstream master
 
-4. Create the virtual environment for application::
+3. Create the virtual environment for application::
   
-    # navigate to the TPO-Backend-App
-    cd TPO-Backend-App
+    # navigate to the MeditateApp
+    cd MeditateApp
 
     # create the virtual environment
-    python -m venv tpo_venv
+    python -m venv App_venv
 
     # activate the virtual environment
-    source tpo_venv/bin/activate
-
-    # install the dependencies
-    pip install -r requirements.txt
+    source App_venv/bin/activate
     
 4. Create a new topic branch (off the main project development branch) to contain your feature, change, or fix::
 
     git checkout -b <topic-branch-name>
-
+    
+5. Add the changed elements 
+   git add .
 5. Commit your changes
+    git commit -m "Comment"
 6. Push your topic branch up to your fork::
     
     git push origin <topic-branch-name>
