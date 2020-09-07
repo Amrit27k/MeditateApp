@@ -29,16 +29,10 @@ Local Development Environment Configuration
     git checkout master
     git pull upstream master
 
-3. Create the virtual environment for application::
-  
+3. Navigate to application::
+
     # navigate to the MeditateApp
     cd MeditateApp
-
-    # create the virtual environment
-    python -m venv App_venv
-
-    # activate the virtual environment
-    source App_venv/bin/activate
     
 4. Create a new topic branch (off the main project development branch) to contain your feature, change, or fix::
 
