@@ -42,7 +42,7 @@ public class Register extends AppCompatActivity {
 
         if(mAuth.getCurrentUser()!=null)
         {
-            startActivity(new Intent(getApplicationContext(),MainActivity3.class));
+            startActivity(new Intent(getApplicationContext(),Tabs.class));
             finish();
         }
 

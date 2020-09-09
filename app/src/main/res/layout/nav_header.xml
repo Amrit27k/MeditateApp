@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#00ACC1">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_login_nav_foreground"
+        android:id="@+id/nav_image1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nav_image1"
+        android:text="User Name"
+        android:layout_marginLeft="18sp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/user_name"/>
+
+</RelativeLayout>
