@@ -1,2 +1,6 @@
 include ':app'
+<<<<<<< HEAD
 rootProject.name = "Yoga"
+=======
+rootProject.name='Meditate'
+>>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
