@@ -1,19 +1,14 @@
 <resources>
-<<<<<<< HEAD
     <!-- Base application theme. -->
     <style name="AppTheme.NoActionBar.." parent="Theme.AppCompat.Light.NoActionBar">
-=======
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
->>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-<<<<<<< HEAD
+
 
 
 
@@ -21,6 +16,4 @@
 
 
 </resources>
-=======
-</resources>
->>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
+
