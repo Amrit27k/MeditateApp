@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-<<<<<<< HEAD
+
 apply plugin: 'com.google.gms.google-services'
 
 android {
@@ -8,27 +8,15 @@ android {
 
     defaultConfig {
         applicationId "com.example.yoga"
-=======
-
-android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
-    defaultConfig {
-        applicationId "com.example.meditate"
->>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-<<<<<<< HEAD
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-=======
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
->>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
     buildTypes {
         release {
             minifyEnabled false
@@ -38,7 +26,6 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation "androidx.drawerlayout:drawerlayout:1.1.1"
@@ -48,7 +35,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'com.google.firebase:firebase-auth:19.3.2'
-    
 
 
     testImplementation 'junit:junit:4.13'
@@ -56,12 +42,4 @@ dependencies {
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-=======
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
->>>>>>> 46ec5a952ef723d09d31fea61d0373a8d9e26f2c
 }
