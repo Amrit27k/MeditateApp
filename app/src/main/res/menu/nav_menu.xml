@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/profile"
-        android:title="Profile"
-        />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="Alarm"
+            android:color="#6BD4E1"
+            />
+        <item
+            android:id="@+id/nav_calendra"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_baseline_audiotrack_24"
+            android:title="Music" />
+
+
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                android:title="Invite" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_layers_24"
+                android:title="About" />
+        </menu>
+    </item>
 </menu>
