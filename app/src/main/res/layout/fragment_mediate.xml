@@ -6,9 +6,95 @@
     tools:context=".FragmentMediate">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Mediate"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/beginner_med"
+                android:background="@drawable/beginner">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/amiko_bold"
+
+                    android:text="Beginner Meditation"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/med_relax"
+                android:background="@drawable/relaxtion">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/amiko_bold"
+
+                    android:text="Relaxation"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/med_calm"
+                android:background="@drawable/calm">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/amiko_bold"
+
+                    android:text="Calm"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/med_depression"
+                android:background="@drawable/deperssion">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/amiko_bold"
+
+                    android:text="Depression"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

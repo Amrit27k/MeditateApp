@@ -6,21 +6,29 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.annotation.SuppressLint;
+import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.DatePicker;
 import android.widget.TableLayout;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.auth.FirebaseAuth;
 
-public class Tabs extends AppCompatActivity {
+import java.text.DateFormat;
+import java.util.Calendar;
+
+public class Tabs extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, DatePickerDialog.OnDateSetListener {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     NavigationView navigationView;
@@ -28,6 +36,7 @@ public class Tabs extends AppCompatActivity {
     TabLayout mTabLayout;
     TabItem firstItem,secondItem,thirdItem;
     PagerAdapter pagerAdapter;
+
 
     @SuppressLint("ResourceType")
     @Override
@@ -40,7 +49,7 @@ public class Tabs extends AppCompatActivity {
 
         drawerLayout=findViewById(R.id.drawer_layout);
         navigationView=findViewById(R.id.nav_view);
-
+        navigationView.setNavigationItemSelectedListener(this);
         pager=findViewById(R.id.view_page);
         mTabLayout=findViewById(R.id.tab_layout);
         firstItem=findViewById(R.id.first_yoga);
@@ -74,6 +83,34 @@ public class Tabs extends AppCompatActivity {
         pager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTabLayout));
     }
 
-  
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        drawerLayout.closeDrawer(GravityCompat.START);
+        if(item.getItemId()==R.id.nav_logout)
+        {
+            FirebaseAuth.getInstance().signOut();
+            startActivity(new Intent(getApplicationContext(),Login.class));
+            finish();
+
+        }
+        if(item.getItemId()==R.id.nav_calendra)
+        {
+            DialogFragment datePicker = new DatePickerFragmnet();
+            datePicker.show(getSupportFragmentManager(),"date picker");
+
+        }
+        return false;
+    }
+
+    @Override
+    public void onDateSet(DatePicker datePicker, int year, int month, int dayOfMonth) {
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR, year);
+        c.set(Calendar.MONTH, month);
+        c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+        String currentDateString = DateFormat.getDateInstance(DateFormat.FULL).format(c.getTime());
+
+
+    }
 }
