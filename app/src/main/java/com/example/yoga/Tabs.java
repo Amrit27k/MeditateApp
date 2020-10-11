@@ -7,6 +7,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
@@ -16,8 +18,12 @@ import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.RelativeLayout;
 import android.widget.TableLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -36,6 +42,9 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
     TabLayout mTabLayout;
     TabItem firstItem,secondItem,thirdItem;
     PagerAdapter pagerAdapter;
+    RelativeLayout beginner;
+    Button beginneryoga;
+    
 
 
     @SuppressLint("ResourceType")
@@ -52,9 +61,13 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
         navigationView.setNavigationItemSelectedListener(this);
         pager=findViewById(R.id.view_page);
         mTabLayout=findViewById(R.id.tab_layout);
+        beginneryoga=findViewById(R.id.beginnerYoga12);
         firstItem=findViewById(R.id.first_yoga);
         secondItem=findViewById(R.id.second_mediate);
         thirdItem=findViewById(R.id.third_course);
+        beginner=findViewById(R.id.beginner);
+
+
 
         toggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
@@ -100,7 +113,23 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
             datePicker.show(getSupportFragmentManager(),"date picker");
 
         }
+        if(item.getItemId()==R.id.profile)
+        {
+            startActivity(new Intent(getApplicationContext(),Profile.class));
+            
+        }
         return false;
+    }
+
+    FragmentYoga fragment=new FragmentYoga();
+    FragmentManager manager=getSupportFragmentManager();
+
+    public FragmentManager getManager() {
+        return manager;
+    }
+
+    public FragmentYoga getFragment() {
+        return fragment;
     }
 
     @Override
