@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:background="@drawable/yoga2"
+    android:background="@drawable/background"
     >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="2dp"
-        android:background="#A8787171">
+        android:background="#6AD3CFD0"
+        >
 
         <TextView
             android:id="@+id/appname"
@@ -27,7 +28,7 @@
 
         <TextView
             android:id="@+id/txtname"
-            android:layout_width="220dp"
+            android:layout_width="260dp"
             android:layout_height="40dp"
             android:layout_below="@+id/appname"
             android:layout_centerHorizontal="true"
@@ -39,40 +40,39 @@
             android:fontFamily="@font/autour_one"
             android:textSize="28dp" />
         <EditText
-            android:layout_width="260dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:hint="Full Name"
-            android:textStyle="bold"
             android:textColor="#fff"
             android:textColorHint="#fff"
             android:layout_below="@+id/txtname"
             android:layout_marginTop="40dp"
             android:padding="7dp"
             android:layout_centerHorizontal="true"
-            android:textSize="26dp"
+            android:textSize="24dp"
             android:layout_marginLeft="20sp"
             android:background="@drawable/rounded_corners"
             android:id="@+id/edttxtname"/>
 
         <EditText
-            android:layout_width="260dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:hint="E-mail Id"
             android:layout_below="@+id/edttxtname"
             android:layout_marginTop="15dp"
             android:padding="7dp"
-            android:textSize="26dp"
+            android:textSize="24dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/rounded_corners"
             android:inputType="textEmailAddress"
             android:layout_marginLeft="20sp"
             android:textColor="#fff"
             android:textColorHint="#fff"
-            android:textStyle="bold"
+
             android:id="@+id/edttxtemail"/>
 
         <EditText
-            android:layout_width="260dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:hint="Mobile No."
             android:padding="7dp"
@@ -81,15 +81,15 @@
             android:layout_marginTop="15dp"
             android:layout_centerHorizontal="true"
             android:inputType="number"
-            android:textSize="26dp"
+            android:textSize="24dp"
             android:layout_marginLeft="20sp"
             android:textColor="#fff"
             android:textColorHint="#fff"
-            android:textStyle="bold"
+
             android:id="@+id/edttxtmobile"/>
 
         <EditText
-            android:layout_width="260dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
@@ -97,10 +97,10 @@
             android:layout_marginTop="15dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/rounded_corners"
-            android:textSize="26dp"
+            android:textSize="24dp"
             android:padding="7dp"
             android:layout_marginLeft="20sp"
-            android:textStyle="bold"
+
             android:textColor="#fff"
             android:textColorHint="#fff"
             android:id="@+id/edttxtpassword"/>
