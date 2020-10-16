@@ -11,10 +11,11 @@
         android:roundIcon="@drawable/background"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar..">
-        <activity android:name=".Profile"></activity>
-        <activity android:name=".Mountain">
-
-        </activity>
+        <activity android:name=".Contributors"></activity>
+        <activity android:name=".Blog" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Mountain" />
         <activity android:name=".Beginner" />
         <activity android:name=".Splash" />
         <activity android:name=".Tabs" />
