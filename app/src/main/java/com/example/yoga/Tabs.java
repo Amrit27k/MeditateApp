@@ -118,6 +118,25 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
             startActivity(new Intent(getApplicationContext(),Profile.class));
             
         }
+        if(item.getItemId()==R.id.nav_about)
+        {
+            startActivity(new Intent(getApplicationContext(),AboutUs.class));
+        }
+        if(item.getItemId()==R.id.nav_invite)
+        {
+            try {
+                Intent intent=new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_SUBJECT,"Perfect Health");
+                String sharemsg="Perfect Health\nhttps://play.google.com/store/apps/details?=en"+BuildConfig.APPLICATION_ID+"\n\n";
+                intent.putExtra(Intent.EXTRA_TEXT,sharemsg);
+                startActivity(Intent.createChooser(intent,"Share by"));
+            }
+            catch (Exception e)
+            {
+                Toast.makeText(this, "Error Occured", Toast.LENGTH_SHORT).show();
+            }
+        }
         return false;
     }
 

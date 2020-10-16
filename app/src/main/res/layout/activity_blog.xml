@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blog"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:textAlignment="center"
+        android:textColor="#00ACC1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#595454"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:layout_marginTop="70dp"
+        android:text="Mental Stress has became the deadly disease than any other.In this pandameic
+the situation has worsen which has lead to many problems to each individual which directly affected
+mental stress.\n
+Perfect Health provides you one of best solution to this disease. Many People either do Yoga or Mediation
+but not both.But both play a vital role in reducing mental stress. \n
+So, there we have an perfect combination of Yoga and Mediation which helps you to take control over
+your stress and results in Happy and Fruitful life.\n
+"
+        />
+
+</RelativeLayout>
