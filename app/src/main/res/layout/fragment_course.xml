@@ -68,9 +68,75 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-
-
                     android:id="@+id/week4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Week 4"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/week4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Week 5"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/week5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Week 6"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/week6"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Week 7"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/week7"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Week 8"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/week8"/>
+
+
 
 
 

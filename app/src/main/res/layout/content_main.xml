@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:background="#00ACC1"
+        android:background="#2c94ea"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:id="@+id/tab_layout">
 
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginTop="0dp"
-        android:background="#00ACC1"
+        android:background="#2c94ea"
 
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:layout_constraintEnd_toEndOf="parent"

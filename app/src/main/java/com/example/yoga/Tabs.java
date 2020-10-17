@@ -113,6 +113,10 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
             datePicker.show(getSupportFragmentManager(),"date picker");
 
         }
+        if(item.getItemId()==R.id.nav_music)
+        {
+            startActivity(new Intent(getApplicationContext(),Music.class));
+        }
         if(item.getItemId()==R.id.profile)
         {
             startActivity(new Intent(getApplicationContext(),Profile.class));
