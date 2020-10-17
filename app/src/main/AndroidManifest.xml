@@ -11,7 +11,14 @@
         android:roundIcon="@drawable/background"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar..">
-        <activity android:name=".Contributors"></activity>
+        <activity android:name=".Music"></activity>
+        <activity android:name=".SplashScreen"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Contributors" />
         <activity android:name=".Blog" />
         <activity android:name=".AboutUs" />
         <activity android:name=".Profile" />
@@ -26,12 +33,11 @@
             android:name=".Register"
             android:label="@string/register" />
         <activity android:name=".Begin">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

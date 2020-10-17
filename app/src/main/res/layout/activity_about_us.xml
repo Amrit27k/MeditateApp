@@ -8,44 +8,64 @@
     >
 
     <TextView
+        android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/baloo"
         android:text="Perfect Health"
         android:textAlignment="center"
         android:textColor="#00ACC1"
-        android:layout_marginTop="20sp"
-        android:textSize="30dp"
-        android:fontFamily="@font/autour_one"
-        android:id="@+id/l1"
-        />
+        android:textSize="45dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@+id/l1"
+        android:id="@+id/image1"
+        android:layout_width="254dp"
+        android:layout_height="199dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/l5" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="215dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_below="@+id/l1"
         android:id="@+id/rl1"
         android:background="#fff">
+
+
         <TextView
+            android:id="@+id/l2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/baloo"
             android:text="Version"
             android:textColor="#272626"
+            android:textSize="20dp" />
 
-            android:textSize="20dp"
-            android:layout_margin="15dp"
-            android:id="@+id/l2"/>
         <TextView
+            android:id="@+id/l3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/l2"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/baloo"
+
             android:text="v1.0.234"
             android:textColor="#888282"
-            android:layout_below="@+id/l2"
-            android:textSize="15dp"
-
-            android:layout_marginLeft="15dp"
-            android:id="@+id/l3"/>
+            android:textSize="15dp" />
 
     </RelativeLayout>
     <RelativeLayout
@@ -57,23 +77,30 @@
         android:layout_below="@+id/rl1"
         android:id="@+id/rl2"
         android:background="#fff">
+
         <TextView
+            android:id="@+id/l4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/baloo"
             android:text="Rate on Google Play"
             android:textColor="#272626"
-            android:textSize="20dp"
-            android:layout_margin="15dp"
-            android:id="@+id/l4"/>
+            android:textSize="20dp" />
+
         <TextView
+            android:id="@+id/l5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Send Feedback"
-            android:textColor="#272626"
-            android:textSize="20dp"
             android:layout_below="@+id/l4"
             android:layout_marginLeft="15dp"
-            android:id="@+id/l5"/>
+            android:fontFamily="@font/baloo"
+            android:text="Send Feedback"
+            android:textColor="#272626"
+            android:textSize="20dp" />
 
     </RelativeLayout>
 
@@ -87,49 +114,59 @@
         android:layout_below="@+id/rl2"
         android:id="@+id/rl3"
         android:background="#fff">
+
         <TextView
+            android:id="@+id/l6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"
             android:text="Blog"
             android:textColor="#272626"
-            android:textSize="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:id="@+id/l6"/>
+            android:textSize="20dp" />
+
         <TextView
+            android:id="@+id/l7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contributors"
+            android:layout_below="@+id/l6"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Our Team"
             android:textAllCaps="false"
             android:textColor="#272626"
-            android:textSize="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/l6"
-            android:id="@+id/l7"/>
+            android:textSize="20dp" />
 
         <TextView
+            android:id="@+id/l8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Terms of Service"
-            android:textColor="#272626"
             android:layout_below="@id/l7"
-            android:textSize="20dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Terms of Service"
 
-            android:id="@+id/l8"/>
+            android:textColor="#272626"
+            android:textSize="20dp" />
 
 
     </RelativeLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/rl3"
-        android:textSize="15sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/baloo"
         android:text="All rights reserved.\nPerfect Health is a registered trademark."
-        android:layout_margin="15dp"
-        />
+        android:textSize="15sp" />
+
 
 
 
