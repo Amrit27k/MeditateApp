@@ -30,10 +30,4 @@
         android:textSize="22sp"
         android:id="@+id/mountain_text"/>
 
-
-
-
-
-
-
 </RelativeLayout>
