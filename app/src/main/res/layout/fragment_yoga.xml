@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/amiko_bold"
-
+                    android:layout_marginBottom="25dp"
                     android:text="Yoga For Hip"
                     android:textAllCaps="true"
                     android:textColor="#fff"
