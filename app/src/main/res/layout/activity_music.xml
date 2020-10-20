@@ -126,6 +126,4 @@
             android:layout_height="26dp"
             android:src="@drawable/sound2"/>
     </LinearLayout>
-
-
 </LinearLayout>
