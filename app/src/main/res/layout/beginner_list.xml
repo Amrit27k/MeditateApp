@@ -61,7 +61,10 @@
                 android:textAlignment="center"
                 android:text="kcal"
                 android:id="@+id/beginner_kcal"
+
                 android:layout_marginTop="90dp"
+
+                android:layout_marginTop="80dp"
                 android:layout_marginLeft="180dp"
                 android:textSize="22dp"
                 android:textColor="#F51E1D1D"/>

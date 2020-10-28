@@ -11,13 +11,16 @@
         android:roundIcon="@drawable/background"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar..">
-        <activity android:name=".Music"></activity>
-        <activity android:name=".SplashScreen"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Alarm_man"></activity>
+        <activity android:name=".Music" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <receiver android:name=".AlarmReceiver"/>
         <activity android:name=".Contributors" />
         <activity android:name=".Blog" />
         <activity android:name=".AboutUs" />
@@ -33,6 +36,7 @@
             android:name=".Register"
             android:label="@string/register" />
         <activity android:name=".Begin">
+
         </activity>
 
         <meta-data
