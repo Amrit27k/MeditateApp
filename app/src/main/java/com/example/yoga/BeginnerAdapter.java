@@ -17,7 +17,7 @@ import java.util.List;
 
 public class BeginnerAdapter extends RecyclerView.Adapter<BeginnerAdapter.BeginnerViewHolder> {
 
-
+    String title;
     private Context mctx;
     private List<BeginnerYoga> beginnerList;
     public BeginnerAdapter(Context mctx, List<BeginnerYoga> beginnerList) {
@@ -42,8 +42,15 @@ public class BeginnerAdapter extends RecyclerView.Adapter<BeginnerAdapter.Beginn
         holder.kcal.setText(beginner.getKcal());
         holder.time.setText(beginner.getTime());
         holder.imageView.setImageResource(beginner.getImage());
-
-        String title=beginner.getName();
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mctx,Mountain.class);
+                intent.putExtra("title",beginner.getName());
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mctx.startActivity(intent);
+            }
+       });
 
 
 
@@ -64,15 +71,16 @@ public class BeginnerAdapter extends RecyclerView.Adapter<BeginnerAdapter.Beginn
 
 
 
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i=new Intent(v.getContext(),Mountain.class);
-                    i.putExtra("title",String.valueOf(beginnerList.get(getAdapterPosition())));
-
-                    v.getContext().startActivity(i);
-                }
-            });
+//            itemView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent i=new Intent(v.getContext(),Mountain.class);
+//
+//                   i.putExtra("title",String.valueOf(beginnerList.get(getAdapterPosition())));
+//
+//                    v.getContext().startActivity(i);
+//                }
+//           });
             name=itemView.findViewById(R.id.beginner_name);
             time=itemView.findViewById(R.id.beginner_time);
             level=itemView.findViewById(R.id.beginner_level);
