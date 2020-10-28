@@ -126,6 +126,11 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
         {
             startActivity(new Intent(getApplicationContext(),AboutUs.class));
         }
+
+        if(item.getItemId() == R.id.nav_alarm)
+        {
+            startActivity(new Intent(getApplicationContext(),Alarm_man.class));
+        }
         if(item.getItemId()==R.id.nav_invite)
         {
             try {
