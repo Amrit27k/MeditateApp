@@ -47,6 +47,7 @@ public class Beginner extends AppCompatActivity {
                         "30\nkcal",
                         R.drawable.beginner
                 ));
+
         adapter=new BeginnerAdapter(this,beginnerYogaList);
         recyclerView.setAdapter(adapter);
 
