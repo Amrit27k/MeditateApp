@@ -8,24 +8,41 @@
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".Alarm_man"
-    android:background="#DAFAE3">
+    android:background="#fff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@+id/l1"
+        android:id="@+id/image1"
+        android:layout_width="254dp"
+        android:layout_height="199dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/l5" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:hint="Enter motivation"
-        android:textColor="#100F10" />
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Your Task"
+        android:textAlignment="center"
+        android:fontFamily="@font/baloo"
+        android:textColorHint="#A5A8A3"
+        android:background="@drawable/rounded_corners"
+        android:textColor="#000" />
 
     <TimePicker
         android:id="@+id/timePicker"
         android:layout_width="300dp"
-        android:layout_height="342dp"
-        android:background="#5E5C56"
-        android:headerBackground="#0C0C0C"
-        android:numbersBackgroundColor="#5E5C56"
-        android:numbersTextColor="@android:color/black"/>
+        android:layout_height="370dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:headerBackground="#00ACC1"
+        android:numbersBackgroundColor="@color/cardview_shadow_end_color"
+        android:numbersTextColor="#000"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,19 +52,23 @@
 
         <Button
             android:id="@+id/setBtn"
-            android:layout_width="wrap_content"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:text="Set Alarm"
-            android:background="#4AC86A"
+            android:textColor="#fff"
+            android:fontFamily="@font/baloo"
+            android:background="@drawable/rounded_button"
             android:textStyle="bold"/>
 
         <Button
             android:id="@+id/cancelBtn"
-            android:layout_width="wrap_content"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:text="Cancel Alarm"
-            android:background="#4AC86A"
+            android:fontFamily="@font/baloo"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button"
             android:textStyle="bold"/>
 
 
