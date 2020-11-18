@@ -11,7 +11,10 @@
         android:roundIcon="@drawable/l5"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar..">
-        <activity android:name=".BeginnerMediation"></activity>
+        <activity android:name=".Depression"></activity>
+        <activity android:name=".Calm" />
+        <activity android:name=".Relaxation" />
+        <activity android:name=".BeginnerMediation" />
         <activity android:name=".Alarm_man" />
         <activity android:name=".Music" />
         <activity android:name=".SplashScreen">
@@ -38,7 +41,7 @@
         <activity
             android:name=".Register"
             android:label="@string/register" />
-        <activity android:name=".Begin"></activity>
+        <activity android:name=".Begin" />
 
         <meta-data
             android:name="preloaded_fonts"

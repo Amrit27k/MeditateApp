@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -26,6 +28,7 @@ public class FragmentMediate extends Fragment {
     private String mParam1;
     private String mParam2;
     Button b2;
+    RelativeLayout b3,b4,b5;
 
     public FragmentMediate() {
         // Required empty public constructor
@@ -71,6 +74,32 @@ public class FragmentMediate extends Fragment {
                 startActivity(new Intent(getActivity(),BeginnerMediation.class));
             }
         });
+
+        b3=v.findViewById(R.id.med_relax);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),Relaxation.class));
+            }
+        });
+
+        b4 = v.findViewById(R.id.med_calm);
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),Calm.class));
+            }
+        });
+
+        b5 = v.findViewById(R.id.med_depression);
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),Depression.class));
+            }
+        });
+
         return v;
     }
+
 }
