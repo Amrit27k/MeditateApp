@@ -45,7 +45,7 @@ public class Beginner extends AppCompatActivity {
                         "Easy",
                         "30s",
                         "30\nkcal",
-                        R.drawable.beginner
+                        R.drawable.standingforwardfold
                 ));
 
         adapter=new BeginnerAdapter(this,beginnerYogaList);
