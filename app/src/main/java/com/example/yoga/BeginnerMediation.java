@@ -25,7 +25,7 @@ public class BeginnerMediation extends AppCompatActivity {
 
         Uri uri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/perfect-health-c41e6.appspot.com/o/beginnermediation.mp4?alt=media&token=db81fd10-66d1-4c45-9d52-df9ff94902f3");
         videoView.setVideoURI(uri);
-        
+
 
 
 
