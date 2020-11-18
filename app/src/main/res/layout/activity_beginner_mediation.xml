@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BeginnerMediation">
+
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/video1"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turn around your 2020 in 21 days...\n
+Do the 21 Day Meditation Challenge!\n In these 21 days you'll
+discover that meditation is effortless and rewarding when done under the right guidance.\n
+A simple 10 minute guided meditation for beginners by Gurudev Sri Sri Ravi Shankar.\n
+Learn how to meditate in this video and enjoy the power of meditation.\n
+Meditating daily will improve your immunity, reduce stress levels, reduce anxiety, and mental clarity.
+"
+            android:layout_below="@+id/video1"
+            android:textColor="#5A5656"
+
+            android:textSize="20sp"/>
+
+
+
+
+
+
+</RelativeLayout>
