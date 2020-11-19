@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relaxation">
+
+    <VideoView
+        android:id="@+id/vid_rel"
+        android:layout_width="match_parent"
+        android:layout_height="185dp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relax your body and mind
+        with this 15 min Guided Meditation."
+
+        android:layout_below="@+id/vid_rel"
+        android:textColor="#5A5656"
+
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
