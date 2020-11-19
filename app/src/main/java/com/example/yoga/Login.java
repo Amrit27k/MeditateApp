@@ -37,13 +37,14 @@ public class Login extends AppCompatActivity {
         edt_log_pass=findViewById(R.id.edtpassword);
         mAuth = FirebaseAuth.getInstance();
 
-
+        // checksession();
 
         newuser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Login.this, Register.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -70,9 +71,11 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
+                            new CurrentUser(Login.this).setPass(epass);
                             Toast.makeText(Login.this, "Login Succcessful", Toast.LENGTH_SHORT).show();
 
                             startActivity(new Intent(Login.this,Tabs.class));
+                            finish();
                         }
                         else
                         {
@@ -83,4 +86,7 @@ public class Login extends AppCompatActivity {
             }
         });
     }
+
+
+
 }

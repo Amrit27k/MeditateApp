@@ -33,7 +33,6 @@
         <activity android:name=".Profile" />
         <activity android:name=".Mountain" />
         <activity android:name=".Beginner" />
-        <activity android:name=".Splash" />
         <activity android:name=".Tabs" />
         <activity
             android:name=".Login"

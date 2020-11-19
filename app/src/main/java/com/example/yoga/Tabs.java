@@ -103,6 +103,7 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
         if(item.getItemId()==R.id.nav_logout)
         {
             FirebaseAuth.getInstance().signOut();
+            new CurrentUser(Tabs.this).removeUser();
             startActivity(new Intent(getApplicationContext(),Login.class));
             finish();
 

@@ -22,6 +22,8 @@ public class Begin extends AppCompatActivity {
         btnlogin1=findViewById(R.id.main_login);
         btnregister1=findViewById(R.id.main_register);
 
+        checksession();
+
         btnlogin1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,4 +39,13 @@ public class Begin extends AppCompatActivity {
             }
         });
     }
+
+    private void checksession() {
+        if (new CurrentUser(Begin.this).getPass() != "") {
+            startActivity(new Intent(Begin.this, Tabs.class));
+            finish();
+        } else {
+        }
+    }
+
 }
