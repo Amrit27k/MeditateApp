@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calm">
+
+    <VideoView
+        android:id="@+id/vid_calm"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation can give you a sense of calm, peace and balance that can benefit both your emotional well-being and your overall health.
+And these benefits don't end when your meditation session ends. Meditation can help carry you more calmly through your day and may help you manage symptoms of certain medical conditions."
+
+        android:layout_below="@+id/vid_calm"
+        android:textColor="#5A5656"
+
+        android:textSize="30sp"/>
+
+</RelativeLayout>
