@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -70,6 +71,11 @@ public class Register extends AppCompatActivity {
                     edtemail.setError("This Field  is required");
                     return;
                 }
+                else if(!Patterns.EMAIL_ADDRESS.matcher(eemail).matches())
+                {
+                    edtemail.setError("Please Enter a Valid Email address");
+                    return ;
+                }
                 if(TextUtils.isEmpty(emob))
                 {
                     edtmob.setError("This Field is required");
@@ -80,6 +86,8 @@ public class Register extends AppCompatActivity {
                     edtpassword.setError("Password should be of atleast 6 character");
                     return;
                 }
+
+
 
                 mAuth.createUserWithEmailAndPassword(eemail,epass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
@@ -110,4 +118,8 @@ public class Register extends AppCompatActivity {
     }
 
 
-}
+
+
+    }
+
+
