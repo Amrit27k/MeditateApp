@@ -65,7 +65,7 @@ public class Tabs extends AppCompatActivity implements NavigationView.OnNavigati
         firstItem=findViewById(R.id.first_yoga);
         secondItem=findViewById(R.id.second_mediate);
         thirdItem=findViewById(R.id.third_course);
-        beginner=findViewById(R.id.beginner);
+        beginner=findViewById(R.id.beginnerYoga);
 
 
 

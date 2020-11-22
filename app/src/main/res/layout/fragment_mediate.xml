@@ -13,22 +13,29 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <Button
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:layout_marginLeft="15sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:id="@+id/beginner_med"
-                android:layout_centerInParent="true"
-                android:fontFamily="@font/amiko_bold"
-
-                android:text="Beginner Meditation"
-                android:textAllCaps="true"
-                android:textColor="#fff"
-                android:textSize="28sp"
                 android:background="@drawable/beginner">
-            </Button>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amiko_bold"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:text=" Beginner Meditation "
+                    android:textAllCaps="true"
+                    android:background="@drawable/custom_backgorund"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"/>
+            </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
@@ -41,13 +48,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
                     android:fontFamily="@font/amiko_bold"
 
-                    android:text="Relaxation"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:text=" Relaxation "
                     android:textAllCaps="true"
-                    android:textColor="#fff"
-                    android:textSize="28sp" />
+                    android:background="@drawable/custom_backgorund"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -61,13 +70,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
                     android:fontFamily="@font/amiko_bold"
 
-                    android:text="Anxiety"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:text=" Anxiety "
                     android:textAllCaps="true"
-                    android:textColor="#fff"
-                    android:textSize="28sp" />
+                    android:background="@drawable/custom_backgorund"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -81,13 +92,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
                     android:fontFamily="@font/amiko_bold"
-                    android:layout_marginBottom="20dp"
-                    android:text="Depression"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:text=" Depression "
                     android:textAllCaps="true"
-                    android:textColor="#fff"
-                    android:textSize="28sp" />
+                    android:background="@drawable/custom_backgorund"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"/>
             </RelativeLayout>
 
 

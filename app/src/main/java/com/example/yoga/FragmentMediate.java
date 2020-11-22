@@ -27,8 +27,8 @@ public class FragmentMediate extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    Button b2;
-    RelativeLayout b3,b4,b5;
+
+    RelativeLayout b3,b4,b5,b2;
 
     public FragmentMediate() {
         // Required empty public constructor
