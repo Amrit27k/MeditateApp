@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Program">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/day1"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text=" Full Body Warm Up "
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d1"
+                    android:text="15 min | 51kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y1"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day2"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text="Gentle Spine Awakening"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d2"
+                    android:text="18 min | 51kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y2"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day3"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text="Strength and Stability Building "
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d3"
+                    android:text="28 min | 40kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y3"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day4"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text=" Stretches and flexibility "
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d4"
+                    android:text="15 min | 51kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y4"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day5"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text="Core Stability Enhancing"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 5"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d5"
+                    android:text="16 min | 45kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y5"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day6"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text="Easy Sequence Practice"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 6"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d6"
+                    android:text="24 min | 69kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y6"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day7"
+                android:layout_width="389dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#C0F8AA">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/custom_backgorund"
+                    android:fontFamily="@font/amiko_bold"
+                    android:text="Dynamic Flow Challenge"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/d7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/autour_one"
+                    android:text="DAY 7"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/d7"
+                    android:text="17 min | 57kcal"></TextView>
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/y7"
+                    android:src="@drawable/ic_play_vid"></ImageView>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

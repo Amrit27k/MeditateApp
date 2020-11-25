@@ -67,27 +67,29 @@
 
         <Button
             android:id="@+id/bt_rew"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/fr_image"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
             android:layout_marginTop="40dp"
-            android:onClick="playBtnClick"/>
+            android:background="@drawable/fr_image"
+            android:onClick="playBtnClick" />
+
         <Button
             android:id="@+id/playBtn"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:background="@drawable/play"
-            android:layout_marginTop="40dp"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:onClick="playBtnClick"/>
+            android:background="@drawable/play"
+            android:onClick="playBtnClick" />
+
         <Button
             android:id="@+id/bt_ff"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/ff_image"
+            android:layout_width="42dp"
+            android:layout_height="56dp"
             android:layout_marginTop="40dp"
-            android:onClick="playBtnClick"/>
+            android:background="@drawable/ff_image"
+            android:onClick="playBtnClick" />
 
 
     </LinearLayout>
