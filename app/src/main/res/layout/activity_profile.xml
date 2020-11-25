@@ -9,16 +9,17 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="180dp"
         android:padding="20dp"
         android:background="#2c94ea">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_id"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/l5"
-            android:layout_centerVertical="true"/>
+            android:layout_width="127dp"
+            android:layout_height="141dp"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/l5" />
 
         <TextView
             android:id="@+id/fullname"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="Name"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:fontFamily="@font/baloo"
             android:layout_marginTop="-30dp"
             android:layout_toRightOf="@+id/profile_id"

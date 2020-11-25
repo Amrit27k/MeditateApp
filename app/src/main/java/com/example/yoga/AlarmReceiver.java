@@ -28,7 +28,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         String message = intent.getStringExtra("message");
 
         // Call MainActivity when notification is tapped.
-        Intent mainIntent = new Intent(context, Alarm_man.class);
+        Intent mainIntent = new Intent(context, Tabs.class);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0, mainIntent, 0);
 
         //Sound
