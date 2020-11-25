@@ -19,6 +19,7 @@
 
 Sure, meditation alone won’t make your symptoms vanish, but it can make them more manageable."
 
+        android:fontFamily="@font/baloo"
         android:layout_below="@+id/vid_depr"
         android:textColor="#5A5656"
 

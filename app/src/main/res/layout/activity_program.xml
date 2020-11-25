@@ -36,7 +36,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text=" Full Body Warm Up "
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -46,7 +46,7 @@
                     android:id="@+id/d1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 1"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -55,7 +55,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d1"
-                    android:text="15 min | 51kcal"></TextView>
+                    android:text="15 min | 51kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -86,7 +87,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text="Gentle Spine Awakening"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -96,7 +97,7 @@
                     android:id="@+id/d2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 2"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -105,7 +106,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d2"
-                    android:text="18 min | 51kcal"></TextView>
+                    android:text="18 min | 51kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -136,7 +138,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text="Strength and Stability Building "
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -146,7 +148,7 @@
                     android:id="@+id/d3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 3"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -155,7 +157,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d3"
-                    android:text="28 min | 40kcal"></TextView>
+                    android:text="28 min | 40kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -186,7 +189,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text=" Stretches and flexibility "
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -196,7 +199,7 @@
                     android:id="@+id/d4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 4"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -205,7 +208,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d4"
-                    android:text="15 min | 51kcal"></TextView>
+                    android:text="15 min | 51kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -236,7 +240,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text="Core Stability Enhancing"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -246,7 +250,7 @@
                     android:id="@+id/d5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 5"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -255,7 +259,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d5"
-                    android:text="16 min | 45kcal"></TextView>
+                    android:text="16 min | 45kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -286,7 +291,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text="Easy Sequence Practice"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -296,7 +301,7 @@
                     android:id="@+id/d6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 6"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -305,7 +310,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d6"
-                    android:text="24 min | 69kcal"></TextView>
+                    android:text="24 min | 69kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"
@@ -336,7 +342,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginBottom="13dp"
                     android:background="@drawable/custom_backgorund"
-                    android:fontFamily="@font/amiko_bold"
+                    android:fontFamily="@font/baloo"
                     android:text="Dynamic Flow Challenge"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
@@ -346,7 +352,7 @@
                     android:id="@+id/d7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+                    android:fontFamily="@font/baloo"
                     android:text="DAY 7"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="15sp" />
@@ -355,7 +361,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/d7"
-                    android:text="17 min | 57kcal"></TextView>
+                    android:text="17 min | 57kcal"
+                    android:fontFamily="@font/baloo"></TextView>
 
                 <ImageView
                     android:layout_width="63dp"

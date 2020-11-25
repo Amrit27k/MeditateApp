@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class SplashScreen extends AppCompatActivity {
 
 
-    private static int SPLASH_TIME_OUT = 5000;
+    private static int SPLASH_TIME_OUT = 6000;
 
     //Hooks
     View first, second, third, fourth, fifth, sixth;
@@ -64,7 +64,7 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },2500);
+        },3000);
 
     }
 

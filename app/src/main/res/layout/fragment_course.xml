@@ -21,21 +21,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_centerInParent="true"
-                android:text="7 day easy yoga flow"
+                android:text="7 day of easy yoga flow"
                 android:textSize="25dp"
                 android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
+                android:fontFamily="@font/baloo"
                 android:background="@drawable/rounded_week"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:id="@+id/week1"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="7 day of medium yoga flow"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/baloo"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
 
-
-
-
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="7 day of hard yoga flow"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_week"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            
         </LinearLayout>
     </ScrollView>
 

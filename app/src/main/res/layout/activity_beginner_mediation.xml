@@ -23,6 +23,7 @@ A simple 10 minute guided meditation for beginners by Gurudev Sri Sri Ravi Shank
 Learn how to meditate in this video and enjoy the power of meditation.\n
 Meditating daily will improve your immunity, reduce stress levels, reduce anxiety, and mental clarity.
 "
+            android:fontFamily="@font/baloo"
             android:layout_below="@+id/video1"
             android:textColor="#5A5656"
 

@@ -10,7 +10,7 @@
     tools:context=".Alarm_man"
     android:background="#fff">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:layout_below="@+id/l1"
         android:id="@+id/image1"
         android:layout_width="254dp"
@@ -18,7 +18,9 @@
         android:layout_gravity="center"
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
-        android:src="@drawable/l5" />
+        app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_sgwmgT.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
 
     <EditText
         android:id="@+id/editText"

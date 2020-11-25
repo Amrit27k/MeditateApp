@@ -15,6 +15,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/nav_image1"
         android:text="User Name"
+        android:fontFamily="@font/baloo"
         android:layout_marginLeft="18sp"
         android:textSize="20sp"
         android:textColor="#fff"
