@@ -35,18 +35,35 @@ public class Beginner extends AppCompatActivity {
                 new BeginnerYoga(
                         "The Mountain\n(Tadasana)",
                         "Easy",
-                        "30s",
-                        "40\nkcal",
+                        "45s",
+                        "30\nkcal",
                         R.drawable.mountain
                 ));
         beginnerYogaList.add(
                 new BeginnerYoga(
                         "Standing Forword Fold\n(Uthanasana)",
                         "Easy",
-                        "30s",
-                        "30\nkcal",
-                        R.drawable.standingforwardfold
+                        "45s",
+                        "45\nkcal",
+                        R.drawable.standingforward
                 ));
+        beginnerYogaList.add(
+                new BeginnerYoga(
+                        "The Cow Cat\n(Marjaryasana)",
+                        "Easy",
+                        "60s",
+                        "60\nkcal",
+                        R.drawable.catcow
+                ));
+        beginnerYogaList.add(
+                new BeginnerYoga(
+                        "Goddess Pose Stretch\n(Utkata Konasana)",
+                        "Easy",
+                        "60s",
+                        "45\nkcal",
+                        R.drawable.goddess
+                ));
+
 
         adapter=new BeginnerAdapter(this,beginnerYogaList);
         recyclerView.setAdapter(adapter);

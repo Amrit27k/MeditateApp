@@ -7,137 +7,15 @@
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
 
 
         <LinearLayout
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_centerInParent="true"
-                    android:text="Week 1"
-                    android:textSize="40dp"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/amiko_bold"
-                    android:background="@drawable/rounded_week"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:id="@+id/week1"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_centerInParent="true"
-                    android:text="Week 2"
-                    android:textSize="40dp"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/amiko_bold"
-                    android:background="@drawable/rounded_week"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_below="@id/week1"
-
-                    android:id="@+id/week2"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_centerInParent="true"
-                    android:text="Week 3"
-                    android:textSize="40dp"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/amiko_bold"
-                    android:background="@drawable/rounded_week"
-                    android:layout_below="@id/week2"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:id="@+id/week3"/>
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_centerInParent="true"
-                    android:text="Week 4"
-                    android:textSize="40dp"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/amiko_bold"
-                    android:background="@drawable/rounded_week"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:id="@+id/week4"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="Week 5"
-                android:textSize="40dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:id="@+id/week5"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="Week 5"
-                android:textSize="40dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:id="@+id/week6"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="Week 6"
-                android:textSize="40dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:id="@+id/week7"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="Week 7"
-                android:textSize="40dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:id="@+id/week8"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="Week 8"
-                android:textSize="40dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="15dp"
-                android:id="@+id/week9"/>
 
 
 

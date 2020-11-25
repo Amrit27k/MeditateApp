@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
-    tools:context=".Mountain">
+    android:layout_margin="5dp"
+    tools:context=".Mountain"
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,13 +15,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:text="Title"
-        android:textColor="#0C6664"
-        android:textSize="20sp"
-        android:id="@+id/title1"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:background="@drawable/rounded_button">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/title1"/>
+
+        </RelativeLayout>
+
 
     <ImageView
         android:layout_width="match_parent"
@@ -28,24 +39,74 @@
         android:src="@drawable/mountain"
         android:layout_below="@+id/title1"
         android:id="@+id/mountain_image"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/mountain_image"
-        android:layout_marginTop="10dp"
-        android:textColor="#403C3C"
-        android:text=" "
-        
-        android:textSize="22sp"
-        android:id="@+id/mountain_text"/>
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10sp"
-        android:layout_marginLeft="50dp"
-        android:layout_below="@+id/mountain_text"
-        android:src="@drawable/youtube"
-        android:id="@+id/youtubelink"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@drawable/round_beginner"
+            android:id="@+id/timmer">
+            <TextView
+                android:id="@+id/text_view_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="00:00"
+                android:textColor="#00ACC1"
+                android:textSize="60sp" />
+            <Button
+                android:id="@+id/button_start_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_countdown"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_button"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:text="start" />
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_start_pause"
+android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="reset"
+                android:fontFamily="@font/amiko_bold"
+                android:background="@drawable/rounded_button"
+                android:textColor="#fff"
+                android:visibility="invisible"
+                android:textSize="20sp"
+                tools:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:text=" "
+android:layout_marginLeft="10dp"
+                android:textSize="22sp"
+                android:id="@+id/mountain_text"
+                 />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/mountain_text"
+                android:src="@drawable/youtube"
+                android:id="@+id/youtubelink"/>
+
+
+        </RelativeLayout>
 
     </LinearLayout>
     </ScrollView>

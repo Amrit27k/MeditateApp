@@ -2,15 +2,19 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+
+    >
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+
+        >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:background="@drawable/round_beginner"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_marginTop="20sp"
             android:id="@+id/mountain">
             <TextView
