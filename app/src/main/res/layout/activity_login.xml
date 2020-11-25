@@ -32,7 +32,7 @@
             android:textColor="#00efc8"
             android:textSize="20dp"
             android:textStyle="bold|italic"
-            android:fontFamily="@font/autour_one"
+            android:fontFamily="@font/baloo"
             android:layout_below="@+id/txt1"
             android:layout_marginTop="-10dp"/>
 
@@ -51,13 +51,15 @@
             android:fontFamily="@font/baloo"
             android:textSize="28dp" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/imagelogin"
             android:layout_width="164dp"
             android:layout_height="149dp"
             android:layout_below="@+id/txtname"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/l5"
+            app:lottie_url="https://assets3.lottiefiles.com/packages/lf20_goeb1fbr.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
             android:padding="2dp" />
 
         <EditText
@@ -112,7 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnlogin"
-            android:textColor="#00efc8"
+            android:textColor="#0C6664"
             android:text="New User? Register"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"

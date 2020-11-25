@@ -25,6 +25,7 @@
             android:id="@+id/textview"
             android:fontFamily="@font/autour_one"/>
         <TextView
+            android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Come To Life, Come To Yoga"
@@ -34,19 +35,22 @@
             android:textSize="20dp"
             android:layout_marginTop="-8dp"
             android:textColor="#00efc8"
-            android:fontFamily="@font/autour_one"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/l5"
-            android:layout_margin="50dp"/>
+            android:fontFamily="@font/baloo"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_below="@+id/text3"
+            app:lottie_url="https://assets7.lottiefiles.com/private_files/lf30_3k3mez5t.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_margin="40dp"
+            android:id="@+id/anime"/>
         <Button
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:text="@string/register"
             android:fontFamily="@font/baloo"
-            android:layout_below="@+id/textview"
-            android:layout_marginTop="380dp"
+            android:layout_below="@+id/anime"
             android:layout_marginLeft="20dp"
             android:background="@drawable/rounded_button"
             android:textColor="#fff"
@@ -59,8 +63,7 @@
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:fontFamily="@font/baloo"
-            android:layout_below="@+id/textview"
-            android:layout_marginTop="380dp"
+            android:layout_below="@+id/anime"
             android:layout_marginLeft="240dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/rounded_button"

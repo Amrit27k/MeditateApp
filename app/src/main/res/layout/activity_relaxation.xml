@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Relax your body and mind
         with this 15 min Guided Meditation."
-
+        android:fontFamily="@font/baloo"
         android:layout_below="@+id/vid_rel"
         android:textColor="#5A5656"
 
