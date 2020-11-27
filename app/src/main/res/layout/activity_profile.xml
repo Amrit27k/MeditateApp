@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#74C4F5FB"
+
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:padding="20dp"
-        android:background="#2c94ea">
+        android:background="#00ACC1">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
@@ -27,53 +30,117 @@
             android:inputType="textPersonName"
             android:hint="Name"
             android:textSize="20dp"
-            android:fontFamily="@font/baloo"
+            android:fontFamily="@font/amiko_bold"
             android:layout_marginTop="-30dp"
             android:layout_toRightOf="@+id/profile_image"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:includeFontPadding="false"
             android:textStyle="bold"
-            android:textColor="#000"/>
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rounded_button">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Info"
+            android:textSize="24sp"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="100dp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/amiko_semibold"
+            />
     </RelativeLayout>
 
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="233dp"
-        android:layout_marginTop="0dp"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#00ACC1"
+            android:src="@drawable/ic_baseline_account_box_24"/>
         <TextView
             android:id="@+id/full_name_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/baloo"
+            android:drawablePadding="3dp"
+            android:fontFamily="@font/amiko_semibold"
+            android:layout_marginLeft="55dp"
+            android:layout_centerVertical="true"
+            android:textSize="24dp"
+            android:textColor="#00897B"
             android:hint="Full Name"
             android:inputType="textPersonName" />
 
+    </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#00ACC1"
+            android:src="@drawable/ic_baseline_email_24"/>
         <TextView
             android:id="@+id/email_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/baloo"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:drawablePadding="3dp"
+            android:fontFamily="@font/amiko_semibold"
+            android:layout_marginLeft="55dp"
+            android:layout_centerVertical="true"
+            android:textSize="22dp"
+            android:textColor="#00897B"
+            android:hint="E-Mail"
+            android:inputType="textPersonName" />
 
-
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#00ACC1"
+            android:src="@drawable/ic_baseline_phone_24"/>
         <TextView
             android:id="@+id/phoneNo_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/baloo"
-            android:hint="Phone No."
-            android:inputType="phone" />
+            android:drawablePadding="3dp"
+            android:fontFamily="@font/amiko_semibold"
+            android:layout_marginLeft="55dp"
+            android:layout_centerVertical="true"
 
-    </LinearLayout>
+            android:textSize="24dp"
+            android:textColor="#00897B"
+            android:hint="Phone No."
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+
+
+
+
 
 </LinearLayout>

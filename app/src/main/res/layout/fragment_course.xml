@@ -17,46 +17,112 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <Button
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="7 day of easy yoga flow"
-                android:textSize="25dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/baloo"
-                android:background="@drawable/rounded_week"
+                android:layout_height="180sp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:id="@+id/week1"/>
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/week1"
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="7 day of medium yoga flow"
-                android:textSize="25dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/baloo"
-                android:background="@drawable/rounded_week"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"/>
+                android:id="@+id/week1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40sp"
+                    android:layout_margin="5dp"
+                    android:layout_height="40sp"
+                    android:src="@drawable/l5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amiko_bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="90dp"
+                    android:text="7 day of easy\n yoga flow"
+                    android:textSize="28dp"
+                    android:textColor="#00897B" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="115dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiko_semibold"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#ffffff"
+                    android:text="FREE\n DEMO"
+                    android:textSize="20dp"/>
 
-            <Button
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:text="7 day of hard yoga flow"
-                android:textSize="25dp"
-                android:textColor="#fff"
-                android:fontFamily="@font/amiko_bold"
-                android:background="@drawable/rounded_week"
+                android:layout_height="180sp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"/>
-            
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yoga_weight"
+
+                android:id="@+id/week2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40sp"
+                    android:layout_margin="5dp"
+                    android:layout_height="40sp"
+                    android:src="@drawable/l5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amiko_bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Yoga for\nWeight Loss"
+                    android:textSize="28dp"
+                    android:textColor="#D5120D" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="115dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiko_semibold"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#ffffff"
+                    android:text="Rs\n599"
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/comingsoon"
+
+                android:id="@+id/week3">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40sp"
+                    android:layout_margin="5dp"
+                    android:layout_height="40sp"
+                    android:src="@drawable/l5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/amiko_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Coming\n  Soon"
+                    android:textSize="32dp"
+                    android:textColor="#34ECD9" />
+
+
+            </RelativeLayout>
+
         </LinearLayout>
     </ScrollView>
 

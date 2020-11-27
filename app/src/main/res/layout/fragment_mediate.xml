@@ -25,7 +25,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/baloo"
+                    android:fontFamily="@font/amiko_bold"
 
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/baloo"
+                    android:fontFamily="@font/amiko_bold"
 
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
@@ -70,7 +70,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/baloo"
+                    android:fontFamily="@font/amiko_bold"
 
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
@@ -92,7 +92,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/baloo"
+                    android:fontFamily="@font/amiko_bold"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
                     android:text=" Depression "
