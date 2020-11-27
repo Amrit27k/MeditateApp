@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -14,17 +15,24 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Register extends AppCompatActivity {
-
+    public static final String TAG = "Register";
     private TextView appname,alreadyregister;
     private EditText edtname,edtemail,edtmob,edtpassword;
     private Button btnregister;
     private FirebaseAuth mAuth;
-
+    FirebaseFirestore fStore;
+    String userID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +48,7 @@ public class Register extends AppCompatActivity {
         btnregister=findViewById(R.id.btnregister1);
         alreadyregister=findViewById(R.id.alreadyregister);
         mAuth = FirebaseAuth.getInstance();
-
+        fStore = FirebaseFirestore.getInstance();
         if(mAuth.getCurrentUser()!=null)
         {
             startActivity(new Intent(getApplicationContext(),Tabs.class));
@@ -95,6 +103,18 @@ public class Register extends AppCompatActivity {
                         if(task.isSuccessful())
                         {
                             Toast.makeText(Register.this, "Registation Succcessful", Toast.LENGTH_SHORT).show();
+                            userID =mAuth.getCurrentUser().getUid();
+                            DocumentReference documentReference= fStore.collection("users").document(userID);
+                            Map<String,Object> user = new HashMap<>();
+                            user.put("fname",ename);
+                            user.put("email",eemail);
+                            user.put("mobNo",emob);
+                            documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                @Override
+                                public void onSuccess(Void aVoid) {
+                                    Log.d(TAG, "onSuccess: user Profile is created for " + userID);
+                                }
+                            });
                             startActivity(new Intent(Register.this,Login.class));
                         }
                         else
@@ -120,6 +140,6 @@ public class Register extends AppCompatActivity {
 
 
 
-    }
+}
 
 

@@ -36,6 +36,7 @@
         <activity android:name=".Beginner" />
         <activity android:name=".Tabs" />
         <activity
+
             android:name=".Login"
             android:label="@string/login" />
         <activity
