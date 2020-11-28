@@ -42,7 +42,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/rounded_button">
+        android:background="@drawable/rounded_button"
+        android:layout_margin="20dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +51,7 @@
             android:textSize="24sp"
             android:layout_centerVertical="true"
             android:textColor="#ffffff"
-            android:layout_marginLeft="100dp"
+            android:textAlignment="center"
             android:textAllCaps="true"
             android:fontFamily="@font/amiko_semibold"
             />
@@ -62,13 +63,16 @@
         android:background="@drawable/rounded_corners"
 
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp">
-        <ImageView
+
+        <com.airbnb.lottie.LottieAnimationView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:background="#00ACC1"
-            android:src="@drawable/ic_baseline_account_box_24"/>
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_url="https://assets8.lottiefiles.com/packages/lf20_gQhRbo.json" />
         <TextView
             android:id="@+id/full_name_profile"
             android:layout_width="match_parent"
@@ -89,13 +93,16 @@
         android:layout_height="50dp"
         android:background="@drawable/rounded_corners"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp">
-        <ImageView
+
+        <com.airbnb.lottie.LottieAnimationView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:background="#00ACC1"
-            android:src="@drawable/ic_baseline_email_24"/>
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_url="https://assets2.lottiefiles.com/packages/lf20_ndMQPV.json" />
         <TextView
             android:id="@+id/email_profile"
             android:layout_width="match_parent"
@@ -115,13 +122,15 @@
         android:layout_height="50dp"
         android:background="@drawable/rounded_corners"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp">
-        <ImageView
+        <com.airbnb.lottie.LottieAnimationView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:background="#00ACC1"
-            android:src="@drawable/ic_baseline_phone_24"/>
+            app:lottie_url="https://assets4.lottiefiles.com/packages/lf20_SBUktL.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
         <TextView
             android:id="@+id/phoneNo_profile"
             android:layout_width="match_parent"
@@ -138,9 +147,14 @@
 
     </RelativeLayout>
 
-
-
-
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        app:lottie_url="https://assets9.lottiefiles.com/private_files/lf30_gcroxmlt.json"
+        app:lottie_autoPlay="true"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        app:lottie_loop="true"/>
 
 </LinearLayout>
