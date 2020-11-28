@@ -15,11 +15,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/nav_image1"
-        android:text="User Name"
+        android:text="Perfect Health"
         android:fontFamily="@font/amiko_semibold"
         android:layout_marginLeft="18sp"
         android:textSize="20sp"
         android:textColor="#fff"
+        android:layout_marginTop="10dp"
         android:id="@+id/user_name"/>
 
 </RelativeLayout>
