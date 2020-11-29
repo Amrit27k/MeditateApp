@@ -60,7 +60,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         // Prepare Notification
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
-                .setContentTitle("Yogahq")
+                .setContentTitle("Perfect Health")
                 .setContentText(message)
                 .setContentIntent(contentIntent)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
